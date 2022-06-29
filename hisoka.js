@@ -540,11 +540,11 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hallo Kak ${m.pushName}*\n\n *Owner saya Open sewa bot*\n *⭔10k Per Group via dana 1 Bulan*\n *⭔10k via pulsa per 1 Bulan*\n\n*Donasi Donk Terserah mau berapa,Bisa via Dana/pulsa*\n\n *info lebih lanjut, Bisa chat owner saya*\nhttps://wa.me/6285822347348 (*Owner*)\n\n _Awas Lu Bohong_` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hallo Kak ${m.pushName}*\n\n *Owner saya Open sewa bot*\n *⭔10k Per Group via dana 1 Bulan*\n *⭔10k via pulsa per 1 Bulan*\n\n*Donasi Donk Terserah mau berapa,Bisa via Dana/pulsa*\n\n *info lebih lanjut, Bisa chat owner saya*\nhttps://wa.me/24105166540(*Owner*)\n\n _Awas Lu Bohong_` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6285822347348')
+                m.reply('https://wa.me/24105166540')
             }
             break
             case 'chat': {
@@ -712,7 +712,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             let member = participants.map(u => u.id)
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `Ciee yang Jadian💖 Jangan lupa Donasi Ke *Arull*🗿
+            let jawab = `Ciee yang Jadian💖 Jangan lupa Donasi Ke *Hendra*🗿
 
 @${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
             let menst = [orang, jodoh]
@@ -1146,13 +1146,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Ofc ArullBotzMD',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grub Ofc Hendra',
+                                    url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Arull',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: 'Number Hendra'
+                                    phoneNumber: '+24105166540'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1185,13 +1185,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Ofc ArullBotzMD',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grub Ofc Hendra',
+                                    url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Arull',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: 'Number Hendra',
+                                    phoneNumber: '+24105166540'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1209,7 +1209,7 @@ break
                                     id: 'sc'
                                 }
                             }]
-                      let txt = `「 *Broadcast ArullBotzMD* 」\n\n${text}`
+                      let txt = `「 *Broadcast HendraMD* 」\n\n${text}`
                       hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
 		}
 		m.reply('*Sukses Broadcast*')
@@ -1691,7 +1691,7 @@ break
             }
             break
 	    case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 6285822347348`
+                if (!Number(text)) throw `Example : ${prefix + command} 24105166540`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -2721,7 +2721,7 @@ let capt = `⭔ Title: ${judul}
                 ]
                 },
                 ]
-                hisoka.sendListMsg(m.chat, `pilih aja *Rull* Setmenu nya!`, hisoka.user.name, `*Hello Arull* !`, `Pilih Rull`, sections, m)
+                hisoka.sendListMsg(m.chat, `pilih aja *Rull* Setmenu nya!`, hisoka.user.name, `*Hello Hendra* !`, `Pilih Rull`, sections, m)
                 }
             }
             break
@@ -2730,13 +2730,13 @@ let capt = `⭔ Title: ${judul}
 Bot Ini Adalah Beta Multi-Device WhatsApp.
 
 ❏ *Info Creator*
-> Name : *ArullOfc*
-> Nomor : *https://wa.me/6285822347348*
-> Umur : *18*
+> Name : *Hendraa*
+> Nomor : *https://wa.me/24105166540*
+> Umur : *16*
 > Region : *Indonesia 🇲🇨*
-> Hobyy : *Gtw*
-> Made in : *Kalimantan Selatan*
-> Nama Asli : *Sahrull... Private*
+> Hobyy : *main game*
+> Made in : *Cirebon jawa barat*
+> Nama Asli : *Hendra... Private*
 └───────⭓
 ~Silahkan Lihat Menu Dibawah^^~
 ┌──⭓ *Group Menu*
@@ -3048,7 +3048,7 @@ _Donasi Ngab Jangan Ngarep Free Mulu_`
                             }, {
                                 callButton: {
                                     displayText: 'Number Owner',
-                                    phoneNumber: '+6285822347348'
+                                    phoneNumber: '24105166540'
                                 }
                             }, {
                                 quickReplyButton: {
